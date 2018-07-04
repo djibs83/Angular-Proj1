@@ -8,6 +8,8 @@ import { HomeModule } from './home/home.module';
 import { PageNotFoundModule } from './page-not-found/page-not-found.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ItemsModule } from './items/items.module';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { ItemsModule } from './items/items.module';
     HomeModule,
     PageNotFoundModule,
     NgbModule.forRoot(),
-    ItemsModule
+    ItemsModule,
+    AppRoutingModule,
+    RouterModule
 
   ],
   providers: [],

@@ -7,7 +7,7 @@ import { PageNotFoundComponent } from './containers/page-not-found/page-not-foun
     CommonModule
   ],
   declarations: [PageNotFoundComponent],
-  exports: [PageNotFoundComponent]
+
 
 })
 export class PageNotFoundModule { }
